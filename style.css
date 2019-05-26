@@ -20,6 +20,7 @@ h1 {
 form {
 	background-color: #fff;
 	padding: 15px;
+	border-radius: 5px;
 }
 input[type="text"] {
 	width: 310px;
@@ -38,6 +39,9 @@ button {
 	border: none;
 	width: 50px;
 }
+button:hover {
+	color: darkblue;
+}
 .tasksBoard{
   background-color: #fff;
   margin-top: 20px;
@@ -47,7 +51,9 @@ button {
   display: none;
 }
 ul{
+	background-color: #fff;
   list-style: none;
+	border-radius: 5px;
 }
 li {
 	border-bottom: 1px solid #53BDFF;
@@ -60,6 +66,17 @@ a {
 	text-align: right;
 	font-size: 1.2em;
 	cursor: pointer;
+}
+a:hover {
+	color: cyan;
+}
+.delete {
+	background-color: #ff6161;
+}
+.delete:hover {
+	color: red;
+	font-family: serif;
+	/*font-size: 1.5em;*/
 }
 @media(max-width: 500px) {
 	.main {

@@ -25,7 +25,7 @@ function submit(e) {
 }
 
 function clearList(e) {
-	document.querySelector('ul').innerHTML = '';
+	document.querySelector('.taskBoard').innerHTML = '';
 }
 
 function tickOrDelete(e) {

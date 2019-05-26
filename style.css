@@ -40,20 +40,19 @@ button {
 	width: 50px;
 }
 button:hover {
-	color: darkblue;
+	color: #ff6161;
 }
-.tasksBoard{
+.taskBoard{
   background-color: #fff;
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 40px;
   display: none;
+	border-radius: 5px;
 }
 ul{
-	background-color: #fff;
   list-style: none;
-	border-radius: 5px;
 }
 li {
 	border-bottom: 1px solid #53BDFF;
@@ -68,7 +67,7 @@ a {
 	cursor: pointer;
 }
 a:hover {
-	color: cyan;
+	color: #ff6161;
 }
 .delete {
 	background-color: #ff6161;
